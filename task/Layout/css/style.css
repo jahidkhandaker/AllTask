@@ -1,0 +1,61 @@
+.common_bg{
+    background-color: #9FC5F8;
+    margin-top: 15px;
+}
+
+.header_height{
+    min-height:100px; 
+}
+.item_one{
+    background-color:#CFE2FB;
+}
+.item_two{
+    background-color:#6FABDC;
+    min-height: 150px;
+    margin-top: 15px;
+}
+
+.brand, .global_nav, .tools{
+    min-height: 70px;
+    margin-top:30px;
+    margin-bottom:15px;
+}
+.hero_height{
+    min-height: 150px;
+}
+.hero_features, .call_to_action{
+    min-height: 100px;
+    margin-top: 30px;
+    margin-bottom:25px;
+}
+
+.padding_right_disable{
+    padding-right: 0px;
+}
+
+.article_height{ min-height: 500px;}
+
+.article_feature, .article_listing{
+    min-height: 430px;
+    margin-top:50px;
+    margin-bottom: 20px;
+}
+
+.sidebar_feature{
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sidebar_content{
+   min-height: 430px;
+}
+
+.footer_height{
+    min-height: 75px;
+    margin-bottom: 25px;
+}
+
+
+
+
+

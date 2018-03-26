@@ -1,0 +1,772 @@
+*{margin: 0; padding: 0;}
+
+body{
+  background-image: url(../images/bg.jpg);
+}
+
+.wrapper { width:1080px;
+    
+    min-height: 750px;
+    margin: 0 auto;
+}
+
+.header { min-height: 150px;
+    position: relative;
+    overflow: hidden;
+    background: black;
+}
+
+.logo { float: left;
+}
+
+.menubar { list-style: none;
+    position: absolute;
+    left: 160px;
+}
+.menubar ul{
+    
+    list-style: none;
+}
+.menubar ul li{
+   float: left;
+    padding: 20px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #333333;
+    border: 1px solid black;
+    font-size: 18px;
+    width: 110px;
+
+}
+.menubar ul li a{
+   text-decoration: none;
+    color: white;
+    
+    
+}
+.search {
+    float: right;
+    margin-top: 85px;
+    margin-right: 4px;
+}
+#search{
+    padding: 3px 3px;
+    width: 220px;
+}
+#searchbutton{
+    background-color: #004B7B;
+    padding: 2px;
+    width: 80px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.headerbottom {
+    min-height: 20px;
+    position: absolute;
+    margin-top: 115px;
+    background-color: #333333;
+    width: 100%;
+}
+.headerbottom ul{
+   list-style: none;
+    color: white;
+}
+.headerbottom ul li{
+    float: left;
+    border-right: 1px solid white;
+    font-size: 18px;
+    padding: 5px 10px;
+   
+}
+.headerbottom ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.sharesend {
+    position: absolute;
+    margin-top: 116px;
+    right: 0px;
+}
+.sharesend ul{
+    list-style: none;
+}
+.sharesend ul li{
+    float: left;
+    padding: 5px 2px;
+
+}
+.sharesend ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.slider { 
+    margin-top: 20px;
+    border: 4px solid #333333;
+    position: relative;
+    height: 400px;
+}
+
+.slidertop {min-height: 30px;
+    width: 740px;
+     border-bottom: 2px solid white;
+}
+.slidertop ul{
+ list-style: none;
+    color: white;
+    width: 800px;
+}
+.slidertop ul li{
+    float: left;
+    padding:5px;   
+}
+.slidertop ul li p{
+    font-size: 14px;
+}
+.slidertop ul li img{
+    width: 14px;
+    height: 11px;
+}
+
+.sliderrightimage {
+    position: absolute;
+    width: 440px;
+    height: 300px;
+}
+
+.sliderrightimage  img{
+    width: 100%;
+    height: 100%;
+}
+.moon{
+   width: 400px;;
+    background-image: url(../images/bgh.png);
+    position: absolute;
+    height: 85px;
+    padding: 20px;
+    
+}
+.moon h1{
+    color: white;
+    font-size: 40px;
+   
+}
+
+.sliderrightimage p{
+    color: white;
+    font-size: 15px;
+}
+
+.slidermiddledata {
+    margin-left: 441px;
+    color: white;
+    width: 330px;
+}
+
+.slidermiddlebox {
+    border: 2px solid #666666;
+    padding: 3px;
+    position: relative;
+    background: #333333;
+    margin: 3px;
+    background: #333333;
+    border: 2px solid #666666;
+}
+
+#mboxheading{
+    color: #cccccc;
+    font-size: 14px;
+    font-weight: bold;
+}
+#mboxdata{
+    font-size: 12px;
+    color: white;
+}
+
+.morestories {
+    border: 2px solid #666666;
+    background: #333333;
+    padding: 4px;;
+    color: white;
+    position: relative;
+    margin-left:4px;;
+    width: 311px;
+   height: 35px;
+}
+.morestories input{
+    background: #333333;
+    color: white;
+    margin-left: 180px;
+    margin-top: 4px;
+    padding: 4px 10px;
+    font-size: 14px;
+    border: 2px solid #666666;
+}
+
+.sliderimagebox {
+    position: absolute;
+    background-color:#333333;
+    width: 302px;
+    right: -4px;
+    top:0px;
+    height: 100%;
+}
+
+.leftcolumimages{
+    width: 150px;
+    float: left;
+}
+.leftcolumimages img{
+    margin-left: 20px;
+    
+    
+}
+
+.rightcolumimages{
+    width: 150px;
+    float: right;
+    
+}
+
+
+.content { position: relative;
+    margin-top: 15px;
+    min-height: 300px;
+}
+
+.nasaimages {
+    background-color: #003366;
+    width: 35%;
+    position: relative;
+    float: left;
+    height: 475px;
+}
+.nasaimages h2{
+    font-size: 20px;
+    color: white;
+}
+.nasaimages ul{
+    list-style: none;
+}
+.nasaimages ul li{
+    float: left;
+    padding: 2px 4px;
+    background-color: #0A69B1;
+    border: 2px solid #003366;
+    border-radius: 5px;
+    
+}
+.nasaimages ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nasaimages img{
+    margin-left: 4px;
+}
+
+.nasaimages h3{
+    color: white;
+}
+.nasaimages p{
+    color: white;
+    padding: 3px;
+}
+
+.nasaimages input{
+    color: white;
+    background-color: #555E61;
+    font-size: 14px;
+    padding: 5px 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 230px;
+    border: none;
+    cursor: pointer;  
+}
+
+.nasamultimedia {
+    background-color: #003366;
+    width: 35%;
+    float:left;
+    position: relative;
+    margin-left: 10px;
+    height: 475px;
+}
+.nasamultimedia h1{
+    font-size: 20px;
+    color: white;
+}
+
+.multimediabox {
+border: 1px solid #003399;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    height: 90px;
+    
+}
+.multimediabox  h2{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    color: #B4E7ED;
+    margin:-75px 0px 0px 150px;
+}
+
+.multimediabox p{
+    position: absolute;
+    color: #B4E7ED;
+    font-size: 12px;
+    margin: -45px 0px 0px 150px;
+}
+.multimediabox a{ 
+    position: absolute;
+     color: #B4E7ED;
+    text-decoration: none;
+    margin-left: 135px;
+    margin-top: 65px;
+
+}
+#videoleftindicator{
+    margin-bottom: 30px;
+}
+#videorightindicator{
+    margin-bottom: 30px;
+}
+
+.contentrightbar {
+    width: 28%;
+    height: 459px;
+    float: right;  
+}
+
+.twitter { position: relative;
+    background: #666666;
+    height: 275px;
+}
+
+.twitter h1{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+#twitterhead{
+    width: 101%;
+    margin-top: -5px;
+     margin-left: -3px;
+}
+#twitterbottom{
+    width: 103%;
+    margin-top:210px;
+    margin-left: -5px;
+}
+.nasaemails {
+    height: 150px;
+    margin-top: 32px;
+    background: #666666;
+    border-radius: 8px;
+}
+
+.nasaemails h2{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 15px;
+    width: 290px;
+    border-top: 2px solid black;
+}
+.emailentry{
+    position: absolute;
+    margin-top: 60px;
+    border: 1px solid black;
+    padding: 8px 14px;
+    
+}
+.emailentry input[type="text"]{
+    padding: 3px 2px;
+    width: 170px;
+}
+.emailentry input[type="button"]{
+     background-color: #004B7B;
+    padding: 4px;
+    width: 70px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 18px;
+}
+.emailentry p{
+    color: white;
+    font-size: 10px;
+    padding: 3px;
+}
+
+.nasaemails img{
+    width: 310px;
+    margin-top: 118px;
+    margin-left: -5px;
+}
+
+.blogsupdets {
+    margin-top: 15px;
+    background-color: #003366;
+    width: 35%;
+    position: relative;
+    float: left;
+    height: 285px;
+    padding: 2px;
+}
+.blogsupdets h1{
+    font-size: 20px;
+    color: white;
+    padding: 7px 12px;;
+}
+.blogsupdets img{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.blogsnews{
+    border: 1px solid black;
+    padding: 5px;
+    color: #ccccff;
+    min-height: 50px;
+}
+.blogsnews span{
+    color: white;
+}
+.blogsupdets input{
+     color: white;
+    background-color: #555E61;
+    font-size: 14px;
+    padding: 4px 8px;
+    margin-top: 25px;
+    margin-left: 229px;
+    border: none;
+    cursor: pointer;  
+}
+
+
+.calendar {
+    margin-top: 15px;
+    background-color: #003366;
+    width: 35%;
+    position: relative;
+    padding: 2px;
+    float: left;
+    height: 285px;
+    margin-left: 10px;
+    
+}
+
+.calendar h2{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    
+}
+.calendar ul{
+    list-style: none;
+}
+
+.month{
+   width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 8px 20px;
+}
+.month ul{
+    list-style: none;   
+}
+.month ul li{
+    float: left;
+    color: white;
+    font-size: 22px;   
+}
+.month ul li span{
+    margin-left: 85px
+}
+.month .prev{
+    
+    float:left;
+}
+.month .next{
+    float:right;
+}
+
+.weekdays{
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.weekdays li{
+    float: left;
+    color: white;
+    padding: 2px 15px;
+    margin-left: 1.5px;
+}
+.days{
+    padding: 10px 0;
+    background: #003366;
+    margin: 4px 1px;
+    width: 100%;
+}
+
+.days li{
+    list-style-type: none;
+    display: inline-block;
+    width: 14.3%;
+    line-height: 20px;
+    text-align: center;
+    margin: 0px -3px;
+    font-size: 12px;
+    color: white;
+    border: 1px solid #006699;
+}
+.blank{
+    color: #003366;
+}
+.calendar input{
+     color: white;
+    background-color: #555E61;
+    font-size: 14px;
+    padding: 5px 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 198px;
+    border: none;
+    cursor: pointer;  
+}
+
+.interest{
+   float: right;
+    width:28%;
+    right: 0px;
+    margin-top: 17px;
+    min-height: 600px;
+   
+}
+.interest h2{
+    background-color:#666666 ;
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+    padding: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.interesttopul{
+     background-color:#666666 ;
+    list-style: none;
+    color: white;
+    margin-left: 2px;
+    
+}
+.interesttopul li{
+    float: left;
+    padding: 3px 10px;
+    font-weight: lighter;
+    font-size: 16px;
+    background: #3C3C3C;
+    border-right: 2px solid black;
+    height: 20px;
+}
+.interesttopul li:hover{
+    background: #666666;
+}
+.interestsecondbar{
+    list-style: none;
+}
+.interestsecondbar li{
+    float: left;
+    color: #A8CBE8;
+    font-weight: bold;
+    padding: 4px 10px;
+     background-color:#666666 ;
+}
+.interestsecondbar li:hover{
+    color: white;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+.interestdata{
+    margin-top: 55px;
+    overflow-y: scroll;
+    height: 325px;
+     background-color:#003366;
+}
+.imagedata{
+    background-color: #003366;
+    margin-top: 5px;
+    float: left;
+}
+.imagedata img{
+    float: left;
+    padding: 5px;
+}
+.imagedata p{
+    color: white;
+    padding: 3px;
+    margin: 5px;
+    font-size: 14px;
+}
+.interest .interestbar{
+    width: 100%   
+}
+#career{
+    position: absolute;
+    border: none;
+    margin: 7px 50px;
+    color: white;
+}
+#centers{
+   position: absolute;
+    border: none;
+    margin: 7px 50px;
+    color: white;
+}
+#offices{
+    position: absolute;
+    border: none;
+    margin: 7px 30px;
+    color: white;
+}
+.exploremore {
+    float: left;
+    width: 35%;
+    min-height: 230px;
+    background: #001F33;
+    margin-top: 10px;
+}
+.exploremore h2{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+
+.exploremore img{
+    margin-left: 18px;
+}
+.exploremore h4{
+    color: white;
+    width: 50%;
+    font-size: 14px;
+    font-weight: lighter;
+    float: left;
+}
+.exploremore h5{
+    color: white;
+    width: 50%;
+    font-size: 14px;
+    font-weight: lighter;
+    float: right;
+}
+
+.leadership {
+     float: left;
+    width: 35%;
+    min-height: 230px;
+    background: #001F33;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.leadership h2{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.leadership img{
+    border: 2px solid white;
+    position: absolute;
+}
+#leader2{
+    margin-top: 10px;
+}
+#leader1{
+    margin-top: 100px;
+}
+.leadership h4{
+    color: white;
+    position: absolute;
+    width: 60%;
+    margin: 15px 20px 0px 120px;
+     font-size: 14px;
+    font-weight: lighter;
+}
+.leadership h5{
+    color: white;
+    position: absolute;
+    width: 60%;
+    margin: 111px 20px 0px 120px;
+     font-size: 14px;
+    font-weight: lighter;
+}
+
+.contentbottom {
+    position: relative;
+   width: 71%;
+    min-height: 200px;
+    float: left;
+    margin-top: 15px;
+}
+
+.con{ position: absolute;
+    min-height: 200px;
+    width: 22%;
+    color: white;
+    padding: 9px; 
+    background: #001F33;
+    
+}
+
+
+.box1{position: absolute;
+    float: left;
+}
+.box2{ position: absolute;
+    float: left; 
+   margin-left: 194px;  
+}
+.box3{ position: absolute;
+    margin-left:389px; 
+}
+.box4{ position: absolute;
+    margin-left:582px; 
+}
+.footer {
+    width: 100%;
+min-height: 50px;
+    float: left;
+    margin-top: 50px;
+    color: white;
+}
+.footer img{
+    float: left;
+    height: 95px;
+}
+.footerbox{
+    width: 213px;
+    float: left;
+    padding: 8px;
+    background: #1d1d1d;
+    border: 2px solid black;
+}
