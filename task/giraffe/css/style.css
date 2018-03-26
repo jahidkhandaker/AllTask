@@ -1,0 +1,350 @@
+
+body{
+	background-image: url(../images/large_bg.png);
+}
+
+.navbar_section{
+	background-color: #ffd338;
+	min-height: 100px;
+}
+
+.nav_color ul li a{
+	font-family: 'Dosis', sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#fff !important;
+	text-transform: capitalize;
+	padding: 0px 20px !important;
+	transition: 1s;
+	border-radius: 20px;
+}
+
+
+.custom_dropdown a{
+	background: transparent !important;
+	border:none;
+}
+.custom_form input{
+	display: none !important;
+}
+.custom_form button{
+	border:none;
+	color: white;
+}
+
+.banner{
+	background-image: url(../images/cloud_2ndbg.png);
+	min-height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+.banner_text{
+	margin-top: 375px;
+}
+.banner_text h1{
+	font-family: 'Dosis', sans-serif;
+	color: #1ec0ff;
+	
+}
+.scroll{
+	margin-top: 500px;
+	margin-bottom: 30px;
+	font-family: 'Lato' , sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #bbbbbb;
+	text-transform: uppercase;
+}
+.kid{
+	min-height: 500px;
+}
+.kid_title{
+	margin-bottom: 30px;
+}
+.kid_title h1{
+	font-family: 'Dosis', sans-serif;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+	color: #333333;
+	margin:30px 20px;
+}
+.kid_title hr{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border:none;
+	border-top: 4px dashed white;
+	width: 230px;
+}
+
+.kid_left{
+	padding: 40px 0px;
+}
+.kid_left h1{
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #333333;
+}
+.kid_left hr{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border:none;
+	border-top: 2px solid #dddddd;
+	width: 135px;
+}
+.kid_left p{
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+	padding-right: 30px;
+}
+.kid_left a img{
+	padding: 35px 0px;
+}
+.kid_img{
+	padding: 40px 0px;
+}
+.education{
+	background-image: url(../images/blue_bg.jpg);
+	min-height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+.edu_icon{
+	padding: 30px 0px;
+}
+.edu_icon h1{
+	padding: 10px;
+	color: white;
+	font-family: 'Dosis', sans-serif;
+	font-size: 25px;
+
+}
+
+.feature{
+	padding-top: 60px;
+}
+
+.feature .kid_title h1{
+	margin-bottom: 10px;
+}
+
+.feature_bottom{
+	padding: 40px 20px !important;
+}
+
+.feature_bar{
+	background-color: #56d47e;
+	height: 30px;
+	border-radius: 20px;
+	color: white;
+	padding-bottom: 40px;
+}	
+.feature_bar p{
+	font-size:25px;
+	margin-top: -3px;
+}
+.moments{
+	background-image: url(../images/green_bg.jpg);
+	min-height: 400px;
+}
+
+.moments_content{
+	padding-bottom: 20px
+}
+.moments_btn img{
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+
+.standby{
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.standby_top i{
+	color: #1ec0ff;
+	font-size: 72px;
+	padding-top: 30px;
+}
+.standby_top a{
+	font-family: 'Lato', sans-serif;
+	line-height: 2;
+	padding-top: 25px;
+}
+.standby_top p{
+	font-family: 'Lato', sans-serif;
+	padding-top: 10px;
+}
+
+.standby_img{
+	margin-top: 20px;
+}
+.standby_content{
+	padding-top: 30px;
+}
+.standby_content h1{
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.standby_content h5{
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+
+}
+.standby_content p{
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+}
+.standby_content ul{
+
+}
+.standby_content ul li{
+	padding:10px 5px;
+}
+
+.standby_content b{
+	font-family: 'Dosis', sans-serif;
+}
+
+.did{
+	background-color: #6e6e6e;
+	min-height: 430px;
+}
+
+.did .kid_title h1{
+	color: #56d47e;
+}
+.did_content h1{
+	color: white;
+	font-family: 'Dosis', sans-serif;
+}
+.did_content img{
+
+}
+.did_content h3{
+	color: white;
+	font-family: 'Dosis', sans-serif;
+}
+
+.timeline_news{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.timeline_date{
+	width: 100px;
+	height: 99px;
+	border-radius: 50%;
+	padding: 16px 37px;
+	margin-top: 25px;
+}
+.timeline_date h3{
+	color: white;
+	font-family: 'Dosis', sans-serif;
+}
+.timeline_date p{
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
+.timeline_date a{
+	
+}
+.timeline_title{
+	margin-top: 35px;
+}
+.timeline_title h3{
+	font-size: 20px;
+
+}
+.timeline_title p{
+
+}
+
+.news_content, .news_image{
+	margin-top: 20px;
+}
+
+.news_content h3{
+	font-family: 'Dosis', sans-serif;
+	font-size: 18px;
+}
+.news_content p{
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+}
+
+footer{
+	background-image: url(../images/footer_bg.png);
+	min-height: 700px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	padding-top: 300px;
+}
+
+.footer_logo p{
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+}
+
+.footer_logo h4, .footer_title h4{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+.footer_title h1{
+	line-height: 15px;
+	font-size: 24px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+
+.footer_title h4 i{
+	padding-right: 10px
+}
+.instagram_img img{
+	padding: 10px 0;
+}
+
+.social_icon{
+
+}
+.social_icon i{
+	color: #cccccc;
+	padding: 40px 5px;
+}
+.g_img{
+	position: absolute;
+	right: 10px;
+	margin-top: 160px;
+}
+.footer_bottom{
+	background: #ffcc33;
+	padding-top: 20px;
+	padding-bottom: 20px;  
+}
+
+.footer_nav ul li{
+	padding: 0 10px ;
+	border-right: 2px solid white;
+	font-size: 16px;
+}
+
+.footer_nav ul li a{
+	color: white;
+}
+
+.copy_right{
+	color: white;
+	font-size: 14px;
+}
+

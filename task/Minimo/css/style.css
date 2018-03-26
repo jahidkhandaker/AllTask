@@ -1,0 +1,127 @@
+.img-responsive{
+    width: 100% !important;
+}
+
+.logo h1{
+    padding-top: 15px 0px; 
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-weight: 100;
+    color: #101010;
+    
+}
+.custom_navbar{
+    background: none;
+    border: none;
+}
+.custom_navbar ul li{
+    
+}
+.custom_navbar ul li a{
+    font-family: 'Playfair Display', serif;
+    color: #777777;
+    font-size: 15px !important;
+    font-weight: 200;
+    padding: 35px;
+}
+#padding_right_disable{
+    padding-right: 0px;
+}
+.custom_navbar ul li a:hover{
+    color: #020202 !important;
+    transition: 0.5;
+}
+
+.common_titles{
+    margin: 45px 0px;
+}
+.common_titles p
+    font-family: 'Ubuntu', sans-serif;
+    color: #a09f9c;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.description{}
+.description_padding{
+    padding: 40px 0px;
+}
+.description h1{
+    color: #626262;
+    font-size: 38px;
+    font-family: 'Playfair Display', serif;
+}
+.description p{
+    color: #626262;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+#newsletter{
+    background-color: #F3F3F3;
+    height: 250px;
+    padding-top: 50px;
+}
+.newsletter_form form{
+    position: relative;
+    width: 320px;
+    margin: 0 auto;
+}
+
+.newsletter_form form input{
+    width: 320px;
+    height: 43px;
+    border:none;
+    border-bottom: 1px solid black;
+    border-bottom-color: currentColor;
+    background-color: transparent;
+    font-size: 20px;
+}
+.newsletter_form form input:focus{
+    border-bottom: 3px solid black;
+}
+.newsletter_form form button{
+    background-color: transparent;
+    border:none;
+    position: absolute;
+    right: -6px;
+    top: 9px;
+}
+
+.load_more{
+   margin: 50px 0px; 
+}
+
+.load_more button{
+    background-color: transparent;
+    border:1px solid black;
+    padding: 18px 30px;
+    font-size: 15px;
+    color: #626262;
+}
+
+footer{
+    background-color:#F3F3F3;
+    padding: 30px 0px;
+    height: 120px;
+    
+}
+.terms_conditions{
+
+}
+.terms_conditions ul li a{
+    text-decoration: none;
+    color: #626262;
+    font-size: 16px;
+    font-weight: bold;
+}
+.social_icon{
+    
+}
+.social_icon ul li a{
+    text-decoration: none;
+    color: #626262;
+    font-size: 16px;
+    font-weight: bold;
+}
