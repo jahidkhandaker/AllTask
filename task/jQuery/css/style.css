@@ -1,0 +1,68 @@
+
+header{
+	margin-top: 20px;
+	min-height: 300;
+}
+
+.parallax-window1 {
+    min-height: 300px;
+    background: transparent;
+}
+
+
+.showBtn button, .hideBtn button{
+	width: 120px;
+	margin-top: 10px;
+}
+.parallax-window2{
+	background: transparent;
+}
+/*.parallax-window3{
+	min-height: 300px;
+	background: transparent;
+}*/
+
+
+
+.overlay{
+
+	background: rgba(0,0,0,0.5);
+}
+
+.title{
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 10px
+}
+
+
+.data{
+	padding-top: 30px;
+	padding-bottom:10px; 
+}
+
+.baby{
+	width: 150px;
+	height: 150px;
+	padding: 10px;
+}
+
+.box{
+	height: 300px;
+	border:2px solid red;
+	overflow: hidden;
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-top: 15px;
+}
+
+.img_box{
+	width: 150px;
+	height: 150px;
+}
+
+footer{
+	min-height: 300px;
+	background-image: url(../images/photobg.png);
+	background-size: cover;
+}
